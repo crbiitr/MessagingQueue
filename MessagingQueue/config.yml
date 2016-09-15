@@ -1,0 +1,19 @@
+logging:
+  level: INFO
+  loggers:
+    com.example.messagingqueue: DEBUG
+    org.skife.jdbi.v2: ALL
+
+database:
+  # the name of the JDBC driver, mysql in our case
+  driverClass: com.mysql.jdbc.Driver
+
+  # the username
+  user: test
+
+  # the password
+  password:
+
+  # the JDBC URL; the database is called DWGettingStarted
+  url: jdbc:mysql://localhost:3306/messaging_queue
+
